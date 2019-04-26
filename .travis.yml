@@ -4,4 +4,4 @@ python:
    
     
 scripy:
-    - python hello_world.py
+    - hello_world
