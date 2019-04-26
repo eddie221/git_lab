@@ -3,4 +3,4 @@ python:
     - "3.6.3"
 
 scripy: 
-    - py.test -v -rs hello_world
+    - py.test -v -rs Test
