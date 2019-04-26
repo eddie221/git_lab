@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         self.assertEqual(calculate.minus(8, 4), 4)
 
     def test_minus3(self):
-        self.assertEqual(calculate.minus(9.7, 2.5), 7.2)
+        self.assertEqual(calculate.minus(9.5, 2.5), 7.0)
 
     def test_mult1(self):
         self.assertEqual(calculate.mult(2, 3), 6)
@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
         self.assertEqual(calculate.mult(2, 39), 78)
 
     def test_mult3(self):
-        self.assertEqual(calculate.mult(3.5, 2.1), 7.35)
+        self.assertEqual(calculate.mult(3.5, 2.0), 7.0)
 
     def test_div1(self):
         self.assertEqual(calculate.div(9, 3), 3)
