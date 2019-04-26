@@ -5,7 +5,7 @@ rvm:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github_token: d8738f9b006e6ca4a7665ae1e4f910a21968d591  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: master
