@@ -15,3 +15,5 @@ deploy:
     app: cicd-test-function
     on:
         repo: eddie221/git_lab
+        run:
+            "web: gunicorn app_run:app"
