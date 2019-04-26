@@ -7,3 +7,11 @@ install:
   
 script: 
   - python Test.py
+  
+deploy:
+    provider: heroku
+    api_key:
+        secure: 88bdcc57-3e98-4a7f-bb46-37947561fb33
+    app: cicd-test-function
+    on:
+        repo: eddie221/git_lab
