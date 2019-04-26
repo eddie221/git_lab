@@ -19,25 +19,25 @@ class Test(unittest.TestCase):
         self.assertEqual(calculate.minus(8, 4), 4)
 
     def test_minus3(self):
-        self.assertEqual(calculate.minus(8.7, 0.9), 7.8)
+        self.assertEqual(calculate.minus(9.7, 2.5), 7.2)
 
-    def test_times1(self):
-        self.assertEqual(calculate.times(2, 3), 6)
+    def test_mult1(self):
+        self.assertEqual(calculate.mult(2, 3), 6)
 
-    def test_times2(self):
-        self.assertEqual(calculate.times(2, 39), 78)
+    def test_mult2(self):
+        self.assertEqual(calculate.mult(2, 39), 78)
 
-    def test_times3(self):
-        self.assertEqual(calculate.times(3.5, 2.1), 7.35)
+    def test_mult3(self):
+        self.assertEqual(calculate.mult(3.5, 2.1), 7.35)
 
-    def test_divided1(self):
-        self.assertEqual(calculate.divided(9, 3), 3)
+    def test_div1(self):
+        self.assertEqual(calculate.div(9, 3), 3)
 
-    def test_divided2(self):
-        self.assertEqual(calculate.divided(9, 0), "nan")
+    def test_div2(self):
+        self.assertEqual(calculate.div(9, 0), "nan")
 
-    def test_divided3(self):
-        self.assertEqual(calculate.divided(5.4, 3), 1.8)
+    def test_div3(self):
+        self.assertEqual(calculate.div(5.4, 3), 1.8)
 
 if __name__ == '__main__':
     unittest.main()
