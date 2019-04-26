@@ -2,5 +2,4 @@ language: python
 python:
     - "3.6.3"
 
-scripy:
-    - python hello_world.py
+scripy: python hello_world.py
