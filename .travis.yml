@@ -13,5 +13,9 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-      - "python ./Helloworld/manage.py runserver"
+      - "git remote -v"
+      - "config:set DJANGO_SETTINGS_MODULE=Helloworld.production_settings"
+      - "ps:scale web=1"
+      - "python mysite/manage.py migrate"
+      - "open"
     
