@@ -13,5 +13,5 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-        "ps:scale web=1"
+        "web: gunicorn Helloworld.wsgi"
     
