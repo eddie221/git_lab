@@ -14,4 +14,4 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-      - "python Helloworld/manage.py migrate"
+      - "python /manage.py migrate"
