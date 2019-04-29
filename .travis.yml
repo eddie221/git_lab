@@ -14,4 +14,4 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-      - "python Helloworld/manage.py migrate --all --settings=settings.heroku"
+      - "python Helloworld/manage.py migrate"
