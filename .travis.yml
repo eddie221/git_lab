@@ -13,6 +13,5 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-      - "cd Helloworld"
-      - "python manage.py runserver"
+      - "python ./Helloworld/manage.py runserver"
     
