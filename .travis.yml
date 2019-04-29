@@ -13,5 +13,5 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-        "rake db:migrate"
+        "ps:scale web=1"
     
