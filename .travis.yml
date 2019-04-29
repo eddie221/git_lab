@@ -13,5 +13,6 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-        "web: gunicorn wsgi.py"
+        "cd Helloworld"
+        "heroku run python manage.py runserver"
     
