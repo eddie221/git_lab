@@ -14,5 +14,4 @@ deploy:
         repo: eddie221/git_lab
     run:
         "cd Helloworld"
-        "heroku run python manage.py runserver"
     
