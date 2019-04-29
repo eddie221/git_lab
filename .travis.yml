@@ -10,5 +10,6 @@ deploy:
     api_key:
         secure: 88bdcc57-3e98-4a7f-bb46-37947561fb33
     app: cicd-test-function
-
+    run:
+        "web: gunicorn wsgi.py"
     
