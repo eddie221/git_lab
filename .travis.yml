@@ -13,9 +13,6 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-      - "git remote -v"
-      - "config:set DJANGO_SETTINGS_MODULE=Helloworld.production_settings"
-      - "ps:scale web=1"
-      - "python mysite/manage.py migrate"
-      - "open"
+      - "DJANGO_SETTINGS_MODULE=project.settings.prod gunicorn project.wsgi:application"
+      - "web: gunicorn project.wsgi:application"
     
