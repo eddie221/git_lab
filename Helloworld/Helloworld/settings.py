@@ -26,7 +26,7 @@ SECRET_KEY = 'kb+6$4_)-)iczk3(v&n6ai9i7f=5zqx0h$-n1%xb7p$$z)aq+0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Helloworld.herokuapp.com']
+ALLOWED_HOSTS = ['cicd-test-function.herokuapp.com']
 
 
 # Application definition
