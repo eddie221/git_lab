@@ -13,5 +13,5 @@ deploy:
     on:
         repo: eddie221/git_lab
     run:
-        "web: gunicorn Helloworld.wsgi"
+        "web: gunicorn wsgi.py"
     
